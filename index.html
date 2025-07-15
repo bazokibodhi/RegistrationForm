@@ -37,7 +37,19 @@
             <hr>
             <fieldset>
                 <legend>Address Information</legend>
+                <form action="" method="post">
+                    <label for="address-box">Address:</label><br>
+                    <textarea name="address-box" id="address-box" rows="5" cols="40" required></textarea>
+                    <br><br>
+                    <label for="city">City:</label>
+                    <input type="text" name="city" required><br><br>
+                    <label for="state">State:</label>
+                    <input type="text" name="state" required><br><br>
+                    <label for="zip">Zip Code:</label>
+                    <input type="number" name="zip">
+                </form>
             </fieldset>
+            <hr>
         </main>
         <hr>
         <footer>
